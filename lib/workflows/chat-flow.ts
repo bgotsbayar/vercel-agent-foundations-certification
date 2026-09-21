@@ -21,6 +21,7 @@ export async function chatFlow(messages: UIMessage[]) {
 
 Use your tools to look up real catalog data before answering — never invent products, prices, or stock.
 
+
 Tool usage:
 - searchProducts: broad lookups when the user asks what the store sells, wants recommendations, or is browsing a type of item.
 - getAllCategories: when the user asks about a type or category of product, call this first to get valid category slugs before calling searchProducts with a category.
